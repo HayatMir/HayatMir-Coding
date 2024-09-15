@@ -1,0 +1,94 @@
+
+Task 1 
+Start 
+INPUT
+    WHILE REQUEST integer from user, Set variables_(0 to Infinity) 
+    IF integer is positive 
+       START LOOP 
+    REQUEST integer from user 
+       STORE Variable 
+    REPEAT-UNTIL 
+       ELSE integer is zero value 
+       BREAK LOOP
+OUTPUT Largest value obtained
+END 
+References - https://www.codecademy.com/resources/blog/pseudocode/
+
+Task 2 
+Start 
+INPUT
+SET VARIABLE first_name 
+REQUEST user's first_name 
+    Print out "first_name" 
+    PRINT out "Hello World" 
+Output 
+END 
+References - Lecture Slide 1 Introduction to Pseudo Code 
+
+Task 3 
+Start 
+INPUT 
+  DECLARE variables to hold five numbers and outputs an arthmetic average
+    DECLARE number1, number2, number3, number4, number5, AVERAGE AS FLOAT 
+  
+  READ the first number 
+    PRINT "Enter first number"
+    INPUT number1 
+  
+  READ the second number 
+    PRINT "Enter second number"
+    INPUT number2 
+  
+  READ the third number 
+    PRINT "Enter third number"
+    INPUT number3 
+  
+  READ the fourth number 
+    PRINT "Enter fourth number"
+    INPUT number4 
+  
+  READ the fifth number 
+    PRINT "Enter first number"
+    INPUT number5 
+  
+  Calcukate arthmetic AVERAGE  
+  PRINT "The average is" AVERAGE 
+OUTPUT
+END 
+References - https://www.quora.com/How-would-you-write-pseudocode-and-an-algorithm-that-reads-two-numbers-and-subtracts-them-together-and-prints-out-their-difference
+
+Task 4 
+START 
+INPUT 
+   SET VARIABLES as Grocery List equates to item in code 
+   SET RULE items are alphabetical order
+
+     Item1 is Bread 
+     Item2 is Milk 
+     Item3 is Apple
+     Item4 is Banana 
+     Item5 is Dragonfruit 
+
+       PRINT "Grocery List" Item1,Item2,Item3,Item4,Item5
+OUTPUT 
+END 
+
+Task 5 
+START 
+  SET VARIABLE to X and Y as integers 
+     REQUEST user to input integer for X 
+     REQUEST user to input integer for Y 
+  READ value X and Y 
+    STORE value as float 
+  
+  RULE1: S equals SUM of X and Y
+    STORE value S as float
+  
+  RULE2: A equals S DIVIDED by two 
+    STORE value A as float 
+  
+  RULE3: P equals X MULTIPLIED by Y
+    STORE value P as float 
+
+  PRINT "Here are your values for S,A,P" LIST:RULE1,RULE2,RULE3
+END
